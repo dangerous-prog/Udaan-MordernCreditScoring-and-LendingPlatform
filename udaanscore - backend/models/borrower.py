@@ -17,7 +17,7 @@ class Borrower(BaseModel):
     savings_score: float
     location_score: float
     quiz_score: float
-    nano_loan_stage: int        # 1 to 4
+    nano_loan_stage: int
     total_loans_repaid: int
     monthly_income: int
 
